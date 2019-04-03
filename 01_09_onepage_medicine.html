@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>THE MARKATI - One Page</title>
+<title>THE MARKATI</title>
 
 <!-- Bootstrap CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -34,32 +34,59 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
+<style>
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+	
+    height: 300px;
+}
+.crow{
+padding-bottom:200px;
+}
+/* Clear floats after the columns */
+.crow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar-brand {
+padding-top : 0px;
+  padding: 0px;
+}
+.navbar-brand>img {
+padding: 0px;
+  height: 100%;
+  width: auto;
+}
+</style>
 
 </head>
+
 <body>
 
 
 <!-- Passpartu -->
-<div class="passpartu passpartu_left"></div>
-<div class="passpartu passpartu_right"></div>
-<div class="passpartu passpartu_top"></div>
-<div class="passpartu passpartu_bottom"></div>
+
 <!-- Passpartu End -->
 
 <div class="page" id="page">
 
 
-    <div class="head_bck" data-color="#FF0000"  data-opacity="0.5"></div>
+    <div class="head_bck" data-color="#000"  data-opacity="1.4"></div>
     
 
     <!-- Header -->
     <header class="simple_menu">
 
         <!-- Logo -->
-        <div class="logo pull-left">
-            <a href="#"><b>THE MARKATI</b></a>
+        <div class="logo pull-left animated bounceInDown">
+         <a class="navbar-brand" href="http://Trazikas.com"><img src="TheMarkati.png" alt="TheMarkati">
+        </a>
+			
         </div>
-
 
         <!-- Header Buttons -->
         <div class="header_btns_wrapper">
@@ -68,34 +95,31 @@
             <div class="main_menu"><i class="ti-menu"></i><i class="ti-close"></i></div>
             
             <!-- Sub Menu -->
-            <div class="sub_menu">
+            <div class="sub_menu animated bounceInDown">
                 <div class="sub_cont">
                     <ul>
-                        <li><a href="#welcome">Welcome</a></li>
-                        <li><a href="#team">Book Appointments</a></li>
-                        <li><a href="#services">Our Services</a></li>
-                        <li><a href="#articles">Articles</a></li>
+                        <li>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                        </li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#services">About us</a></li>
                         <li><a href="#contacts">Contacts</a></li>
-                        <li><a href="#reviews">Reviews</a></li>
+                
 
                         <!-- Search -->
-                        <li class="right_sub no_arrow sub_min_width"><a href="#" class="parents"><i class="ti-search"></i></a>
-                            <ul class="mega_menu">
-                                <li class="mega_sub bask_menu">
-                                    <form>
-                                        <input type="text" class="form-control" placeholder="Enter Your Keywords">
-                                        <button type="submit" class="se_btn">
-                                          <i class="ti-search"></i>
-                                        </button>
-                                    </form>
-                                </li>
-                            </ul>
-                        </li>
+                                         
+       
                         <!-- Search End-->
 
                     </ul>
  
-
                 </div>
             </div>
             <!-- Sub Menu End -->
@@ -113,7 +137,6 @@
 <section class="intro" >
 
     <!-- Down Arrow -->
-    <a href="#welcome" class="down_block go"><i class="fa fa-angle-down"></i></a>
 
     <!-- Wrapper -->
     <div class="intro_wrapper">
@@ -122,19 +145,19 @@
         <div class="intro_item">
             
             <!-- Over -->
-            <div class="over" data-opacity="0.3" data-color="#292929"></div>
-            <div class="into_back into_zoom image_bck" data-image="images/bb.jpg"></div>
+            <div class="over" data-opacity="0.3" data-color="#000"></div>
+            <div class="into_back into_zoom image_bck" data-image="dr.jpeg"></div>
             <div class="text_content">
                 <div class="intro_text intro_text_rc text-left text_small text_up">
-                    <span class="great_title great_title_big">Emergency Departments</span>
-                    <span class="great_subtitle great_subtitle_big">24 Hours Service</span>
+                    <span class="great_title great_title_big">UROLOGIST</span>
+                    <span class="great_subtitle great_subtitle_big">A urologist is a physician who specializes in diseases of the urinary tract and the male reproductive system</span>
                     <span class="intro_soc">
                         <a href="#"><i class="ti-flickr"></i></a>
                         <a href="#"><i class="ti-facebook"></i></a>
                         <a href="#"><i class="ti-pinterest"></i></a>
                         <a href="#"><i class="ti-twitter"></i></a>
                     </span>
-                    <span><a href="#" class="btn btn-white">See More</a><a href="#" class="btn btn-white">Purchase</a></span>
+ 
                 </div> 
                   
             </div>  
@@ -144,177 +167,53 @@
         <div class="intro_item">
 
             <!-- Over -->
-            <div class="over" data-opacity="0.3" data-color="#292929"></div>
-            <div class="into_back into_zoom image_bck" data-image="images/ss.jpg"></div>
+            <div class="over" data-opacity="0.3" data-color="#000"></div>
+            <div class="into_back into_zoom image_bck" data-image="dr.jpeg"></div>
             <div class="text_content">
                 
-                <div class="intro_text intro_text_lc text-right text_up">
-                    <span class="great_title great_title_big">medical SERVICE</span>
-                    <span class="great_subtitle great_subtitle_big">24 Hours Service</span>
-                    <span class="into_txt">Pediatricians and neonatal nurses are available in-house 24 hours a day for babies who require special care following delivery. </span>
-                    <span><a href="#" class="btn btn-white">See More</a><a href="#" class="btn btn-white">Purchase</a></span>
+                <div class="intro_text intro_text_rc text-left text_small text_up">
+                    <span class="great_title great_title_big">When should i see a urologist?</span>
+                    <span class="great_subtitle great_subtitle_big">Having any of these symptoms:</span>
+					<ul>
+                    <span class="into_txt">
+					<li>blood in your urine</li>
+<li>a frequent or urgent need to urinate</li>
+<li>pain in your lower back, pelvis, or sides</li>
+<li>pain or burning during urination</li>
+<li>trouble urinating</li>
+<li>urine leakage</li>
+<li>weak urine flow, dribbling</li>
+<li>a decreased sexual desire</li>
+<li>a lump in the testicle</li>
+<li>trouble getting or keeping an erection</li>
+</ul>
+</span>
                 </div> 
    
             </div>  
         </div>
 
     </div>
+	
+	 <!-- Item -->
     <!-- Wrapper End -->
     
 </section>
 <!-- Intro End -->
 
-
-<!-- Slider Border -->
-<div class="after_slider_border"></div>
-
-
-<!-- Welcome -->
-<section class="boxes" id="welcome">
-    <div class="container-fluid">
-        <div class="row">
-            
-            <!-- col -->
-            <div class="col-md-12 bordered_block grey_border image_bck" data-image="images/white_back.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <h2>WELCOME TO THE MARKATI</h2>
-                            <h4 class="subtitle">A PARADISE BETWEEN LAND AND SEA</h4>
-                            <p>Our motto is to provide hasstle free service.
-			One of the most difficult things for a patient is trying to schedule an appointment when your office is closed. If something happens at 8pm, they have no way of knowing if you will have time to see them the next morning. This puts them in a bind as they either have to take time off work and hope you can see them or go into work in the morning and wait until they can make an appointment.
-
-With online scheduling, this problem is easily avoidable. They can simply log in to your website and see when you are available. This allows your patients to plan their schedule accordingly around the visit without having to wait until the next day. .</p>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-            <!-- Col End -->
-        </div>
-
-        <!-- Welcome Image -->
-        <div class="intro_image intro_text_rb text-center z0 wow fadeInUp" data-wow-duration="2s">
-            <img src="images/businessman.png" alt="img">
-        </div> 
-    </div>
-</section>
-<!-- Welcome End -->
-
-
-<!-- Team -->
-<section class="boxes reviews" id="team">
-    
-    <!-- Title -->
-    <h4 class="sml_abs_title wow fadeInUp">Book Appointments</h4>
-
-    <div class="container-fluid">
-
-        <!-- Wrapper -->
-        <div class="mid_wrapper">
-
-            <!-- Item -->
-            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_blue text-center image_bck height250">
-                <div class="image_over image_bck" data-image="images/ww.jpg" data-blend="multiply" data-position="left" data-color="#eee"></div>
-                <h4><span>BOOK APPOINTMENTS</span></h4>
-                <div class="box_content text-center">
-                    <h3>CLICK HERE
-					</h3>
-                   TO BOOK
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_blue height250">
-                <div class="image_over image_bck" data-image="images/11.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
-                <h4><span>GET HELP</span></h4>
-                <div class="box_content text-center">
-                    <h3>CLICK HERE 
-					</h3>
-                   TO KNOW HOW TO BOOK APPOINTMENTS
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_blue height250">
-                <div class="image_over image_bck" data-image="images/22.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
-                <h4><span>KNOW THE STATUS OF YOUR APPOINTMENTS</span></h4>
-                <div class="box_content text-center">
-                    <h3>CLICK HERE 
-					 </h3>
-                    TO KNOW THE APPOINTMENT IS CONFIRMED OR NOT
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_blue height250">
-                <div class="image_over image_bck" data-image="images/33.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
-                <h4><span>DETAILS</span></h4>
-                <div class="box_content text-center">
-                    <h3>CLICK HERE</h3>
-                   TO KNOW THE DETAILS OF DOCTERS
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_blue height250">
-                <div class="image_over image_bck" data-image="images/44.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
-                <h4><span>CANCEL </span></h4>
-                <div class="box_content text-center">
-                    <h3>CLICK HERE</h3>
-                    TO CANCEL YOUR APPOINTMENTS
-                </div>     
-            </div>
-
-         
-        <!-- Wrapper End -->
-
-    </div>
-</section>
-<!-- Team End -->
-
-<!-- Video -->
-<section class="boxes" id="video">
-    <div class="container-fluid">
-        <div class="row">
-            
-            <!-- col -->
-            <div class="col-md-12 bordered_block grey_border image_bck height500 white_txt" data-position="top right" data-image="images/98.jpg">
-                <div class="over" data-opacity="0.4" data-image="images/overlay.png" data-color="#292929"></div>
-                
-                <div class="great_play_btn">
-                    <div class="great_play_btn_content">
-                        <a href="https://www.youtube.com/watch?v=uGdDbPcNY7A" class="video"><span class="ti ti-control-play"></span></a><br />
-                        <h3>VIDEO BACKGROUND <br /> GREAT FOR PRESENTATIONS</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Col End -->
-        </div>
-
-
-    </div>
-</section>
-<!-- Video End -->
-
-<!-- Schedule -->
-<section class="boxes simple_title" id="schedule">
+<section class="boxes simple_title image_bck" id="schedule" data-color="#292929">
     <div class="container-fluid">
         
         <div class="row">
             
-            <div class="col-md-12 bordered_block no-padding image_bck no-cover" data-image="images/black_dust.jpg">
-                
-                <!-- Over -->
-                <div class="over" data-opacity="0.8" data-color="#292929"></div>
-                
+            <div class="col-md-12 bordered_block no-padding no-cover">
+                                
                 <div class="simple_block white_txt">
                     <h3 class="wow fadeInUp">Working Hours</h3>
                     <h4 class="wow fadeInUp subtitle" data-wow-delay="0.4s">Timetable</h4>
                     
                     <!-- Stat -->
-                    <div class="simple_stat clearfix" data-color="#ea2e49">
+                    <div class="simple_stat clearfix">
                         <div class="stat_item">
                             <b>Sun</b>08:00<br />16:00
                         </div>
@@ -344,48 +243,185 @@ With online scheduling, this problem is easily avoidable. They can simply log in
 
     </div>
 </section>
-<!-- Schedule End -->
+<!-- Slider Border -->
+
+
+<section class="boxes" id="about">
+    <div class="container-fluid">
+        <div class="row">
+            
+            <!-- col -->
+            <div class="col-md-12 bordered_block grey_border image_bck" data-color="#000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1>Urologist</h1>
+                            <h2> <class="subtitle">Which conditions do urologists treat?</h2>
+
+                            <p>
+							<ul>
+Your primary care doctor can treat you for mild urinary problems, such as a UTI. Your primary care doctor may refer you to a urologist if your symptoms don’t improve or if you have a condition that needs treatments they can’t provide.<br><br>
+
+You may need to see both a urologist and another specialist for certain conditions. For example, a man who has prostate cancer can see a cancer specialist called “an oncologist” and a urologist.<br><br>
+
+Urologists treat a wide variety of conditions that affect the urinary system and male reproductive system.<br><br>
+
+<div class="crow">
+  <div class="column" style="background-color:#000;">
+    <h4><strong>In men, urologists treat:</strong></h4><br>
+<ul>
+<li>cancer</li>
+<li>prostate gland enlargement</li>
+<li>erectile dysfunction</li>
+<li>infertility</li>
+<li>interstitial cystitis</li>
+<li>kidney diseases</li>
+<li>kidney stones</li>
+<li>a decreased sexual desire</li>
+<li>prostatitis</li>
+<li>urinary tract infections (UTIs)</li>
+<li>varicoceles</li>
+</ul>
+<br><br>
+  </div>
+  <div class="column" style="background-color:#000;">
+    <h4><strong>In women, urologists treat:</strong></h4><br>
+<ul>
+<li>bladder prolapse</li>
+<li>cancers of the bladder, kidneys, and adrenal glands</li>
+<li>interstitial cystitis</li>
+<li>kidney stones</li>
+<li>overactive bladder</li>
+<li>UTIs</li>
+<li>urinary incontinence</li>
+</ul><br><br>
+</div>
+<div class="column" style="background-color:#000;">
+<h4><strong>In childs, urologists treat:</strong></h4><br>
+<ul>
+<li>bed-wetting</li>
+<li>blockages and other problems with the urinary tract structure</li>
+<li>undescended testicles</li>
+</ul>
+  </div>
+</div>
+
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <!-- Col End -->
+        </div>
 
 
 
+<!-- Team -->
+<section class="boxes reviews" id="team">
+    
+    <!-- Title -->
+    <h4 class="sml_abs_title wow fadeInUp" data-color="#000">Our Team</h4>
+
+    <div class="container-fluid">
+
+        <!-- Wrapper -->
+        <div class="mid_wrapper">
+
+            <!-- Item -->
+            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_gray text-center image_bck height250">
+                <div class="image_over image_bck" data-image="dre2.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
+                <h4><span>Joe Doe</span></h4>
+                <div class="box_content text-center">
+                    <h3>Joe Doe</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </div>     
+            </div>
+
+            <!-- Item -->
+            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_gray height250">
+                <div class="image_over image_bck" data-image="dre1.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
+                <h4><span>Britney Doe</span></h4>
+                <div class="box_content text-center">
+                    <h3>Britney Doe</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. 
+                </div>     
+            </div>
+
+            <!-- Item -->
+            <div class="bordered_block flex_block grey_border doctor_item bordered_over bordered_over_gray height250">
+                <div class="image_over image_bck" data-image="dre3.jpg" data-blend="multiply" data-position="left" data-color="#f4f4f4"></div>
+                <h4><span>John Doe</span></h4>
+                <div class="box_content text-center">
+                    <h3>Jessica Doe</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>     
+            </div>
+
+                
+            </div>
+
+        </div>
+        <!-- Wrapper End -->
+
+    </div>
+</section>
+<!-- Team End -->
 
 <!-- Services -->
-<section class="boxes" id="services">
-    <div class="container-fluid">
+<section class="boxes" id="services" data-color="#000">
+    <div class="container-fluid" data-color="#000">
         
         <div class="row">
-            <div class="col-md-12 bordered_block grey_border image_bck" data-image="images/white_back.jpg">
+            <div class="col-md-12 bordered_block grey_border image_bck bordered_over_gray" data-color="#000">
                 <div class="container text-center">
 
                     <h2>Our Services</h2>
 
                     <!-- Wrapper -->
-                    <div class="mid_wrapper">
+                    <div class="container-fluid ">
 
                         <!-- Item -->
                         <div class="mid_box text-center">
                             <div class="icon"><span class="flaticon-emergency3"></span></div>
-                            <h5>MEDICAL SERVICE</h5>
-                           Choose from the best for best
+                            <h5>OUR MISSION</h5>
+                             To provide state-of-the-art, patient-centered urologic care with integrity and compassion.
                         </div>
 
                         <!-- Item -->
                         <div class="mid_box text-center">
                             <div class="icon"><span class="flaticon-clock8"></span></div>
-                            <h5>24 Hours Service</h5>
-                            Gives 24 Hours Service for the patients.
+                            <h5>Medical Excellence</h5>
+                            Our physicians are leading the way in cutting-edge medical procedures. We play an integral role in the field of urology through on-site research studies
                         </div>
-
-                       
-
-                       
 
                         <!-- Item -->
                         <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-medicine3"></span></div>
-                            <h5>PREGNANCY</h5>
-                            Pregnancy, also known as gestation, is the time during which one or more offspring develops inside a woman.
+                            <div class="icon"><span class="flaticon-hospital3"></span></div>
+                            <h5>Patient Care</h5>
+                            We are dedicated to compassionate care and committed to investigating the effectiveness of all treatment options, including new drugs and procedures.
                         </div>
+
+                        <!-- Item -->
+                       
+
+                        <!-- Item -->
+                       
+                        <!-- Item -->
+                         <div class="mid_box text-center">
+                            <div class="icon"><span class="flaticon-heart27"></span></div>
+                            <h5>Convenient Customer Service</h5>
+                            <p>Scheduling the appointment is easier with us. It is a time saving and easy as compared to traditional alternatives. </p>
+                        </div>
+
+                        
+
+                        <!-- Item -->
+                      
 
                     </div>
                     <!-- Wrapper End -->
@@ -400,102 +436,28 @@ With online scheduling, this problem is easily avoidable. They can simply log in
 <!-- Services End -->
 
 <!-- Add -->
-<section class="boxes
-    <div class="container-fluid">
-        <div class="row">
-            
-            <!-- Item -->
-            <div class="col-md-6 bordered_block bordered_zoom_two flex_block image_bck bordered_wht_border height500">
-                
-                <!-- Over -->
-                <div class="over" data-opacity="0.2" data-color="#000"></div>
-                <a href="#" class="box_link"></a>
-                <div class="image_over image_bck" data-image="images/zz.jpg"></div>
-                <div class="adds_txt text-left">
-                    <h5>OUR LOCATION</h5>
-                    <span class="great_title_big">ON MAPS</span>
-                </div> 
-            </div>
-            <!-- Item -->
-            <div class="col-md-6 bordered_block bordered_zoom_two flex_block image_bck bordered_wht_border height500">
-                
-                <!-- Over -->
-                <div class="over" data-opacity="0.2" data-color="#0000FF></div>
-                <a href="#" class="box_link"></a>
-                <div class="image_over image_bck" data-image="images/ee.jpg"></div> 
-                <div class="adds_txt text-left">
-                    <h5>RESULTS</h5>
-                    <span class="great_title_big">WE GIVE THE BEST SEARCH THAT YOU WANT</span>
-                </div>
-            </div>
 
-        </div>
-        <!-- Row End -->
-        
-    </div>
-</section>
 <!-- Add End -->
 
 
 <!-- Articles -->
-<section class="boxes" id="articles">
+
+<!-- Articles End -->
+<section class="boxes">
     <div class="container-fluid">
-        
         <div class="row">
-            <div class="col-md-12 bordered_block grey_border image_bck" data-image="images/white_back.jpg">
-                <div class="container text-center">
-                    <h3>Featured articles</h3>
-
-                    <!-- Wrapper -->
-                    <div class="mid_wrapper">
-
-                        <!-- Item -->
-                        <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-emergency3"></span></div>
-                            <h5>Fast Appointments around india</h5>
-                            <p></p>Our team is available round the clock, to manage your healthcare requirements.
-                        </div>
-
-                        <!-- Item -->
-                        <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-heart27"></span></div>
-                            <h5>Convenient Customer Service</h5>
-                            <p>Whether it's a long-term requirement or an emergency, we will connect you to the right resources, instantly. </p>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-teeth"></span></div>
-                            <h5>Easy & Safe Online booking</h5>
-                            <p>Contents</p>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-hospital3"></span></div>
-                            <h5>We’re responsible</h5>
-                            <p>Get reliable, verified, trusted medical professionals. </p>
-                        </div>
-
-                        <!-- Item -->
-                        <div class="mid_box text-center">
-                            <div class="icon"><span class="flaticon-medicine3"></span></div>
-                            <h5>We're Friendly</h5>
-                            <p>contents </p>
-                        </div>
-                    </div>
-                    <!-- Wrapper End -->       
-                   
+            <div class="col-md-12 bordered_block bordered_wht_border white_txt image_bck text-center" data-color="#000">
+                <div class="container">
+                        <span class="great_title great_title_big">What are you waiting for</span>  
+                        <h4 class="subtitle">Leave an appointment today!</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br />
+                        tempor incididunt ut labore et dolore magna aliqua.</p>  
+                                    
                 </div>
-                
             </div>
         </div>
-        <!-- Row End -->
-
     </div>
 </section>
-<!-- Articles End -->
-
 
 <!-- Contacts -->
 <section class="boxes" id="contacts">
@@ -504,18 +466,19 @@ With online scheduling, this problem is easily avoidable. They can simply log in
         <div class="row">
             
             <!-- Contacts -->
-            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="images/c1.jpg">
-                <div class="over" data-opacity="0.6" data-color="#2475cd"></div>
+            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt">
+                <div class="over" data-opacity="0.6" data-color="#000"></div>
                 <div class="col-md-12 simple_block text-left">
                     <h3>Contacts</h3>
-                    <span class="contacts_ti ti-mobile"></span>+91 9008763459 <br />
-                    <span class="contacts_ti ti-mobile"></span>+91 8735563197<br />
-                    <span class="contacts_ti ti-email"></span><a href="mailto:support@thetrazikas.com">support@themarkati.com</a><br />
-                    <span class="contacts_ti ti-location-pin"></span>Workplace smartworks , chennai-600089 ,india
+                    <span class="contacts_ti ti-mobile"></span>+11 (0) 200 1111 001<br />
+                    <span class="contacts_ti ti-mobile"></span>+11 (0) 200 1111 002<br />
+                    <span class="contacts_ti ti-email"></span><a href="mailto:support@theberg.com">support@theberg.com</a><br />
+                    <span class="contacts_ti ti-location-pin"></span>Australia place nice, RD nice DHA Road, state pace 786
+                    
                     <h4 class="newsletter_title">
                         Stay informed with our newsletter
                     </h4>
-                            <input placeholder="Enter Your Email" required class="form-control form-opacity no-margin newsletter_input" type="email" required/>
+                            <input placeholder="Enter Your Email" class="form-control form-opacity no-margin newsletter_input" type="email" required />
 
                             <button type="submit" class="btn btn-white">
                                 Subscribe
@@ -527,8 +490,9 @@ With online scheduling, this problem is easily avoidable. They can simply log in
             </div>
             
             <!-- Write Us -->
-            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="images/cc.jpg">
-                <div class="over" data-opacity="0.6" data-color="#000080"></div>
+			<form action="email.php" method = "post">
+            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt">
+                <div class="over" data-opacity="0.6" data-color="#000"></div>
                 <div class="col-md-12 simple_block text-left">
                     <h3>Write Us</h3>
                                         <form action="https://formspree.io/your@email.com" method="POST">
@@ -537,23 +501,24 @@ With online scheduling, this problem is easily avoidable. They can simply log in
                                 <input type="text" name="name" class="form-control form-opacity" placeholder="Name*" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="surname" class="form-control form-opacity" placeholder="Surname*"required>
+                                <input type="text" name="surname" class="form-control form-opacity" placeholder="Surname*" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="city" class="form-control form-opacity" placeholder="City"required>
+                                <input type="text" name="city" class="form-control form-opacity" placeholder="City">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="country" class="form-control form-opacity" placeholder="Country"required>
+                                <input type="text" name="country" class="form-control form-opacity" placeholder="Country">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" class="form-control form-opacity" placeholder="E-mail*"required>
+                                <input type="email" required name="email" class="form-control form-opacity" placeholder="E-mail*" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="phone" pattern="[789][0-9]{9}" name="phone" class="form-control form-opacity" placeholder="Phone"required>
+                                <input type="text" name="phone" class="form-control form-opacity" placeholder="Phone">
                             </div>
                             <div class="col-md-12">
-                                <textarea placeholder="Message" name="message" class="form-control form-opacity"></textarea>
+                                <textarea placeholder="Message" required name="message" class="form-control form-opacity"></textarea>
                             </div>
+						
                             <div class="col-md-12">
                                 <input type="submit" class="btn btn-white submit" value="Send">
                             </div>
@@ -562,174 +527,22 @@ With online scheduling, this problem is easily avoidable. They can simply log in
                 </div>   
             </div>
             <!-- Write Us End -->
-
+</form>
         </div>
         <!-- Row End -->
     </div>
 </section>
 <!-- Contacts End -->
 
-<!--Reviews-->
-<section class="boxes reviews" id="reviews">
-    <div class="container-fluid">
 
-        <!-- Title -->
-        <h4 class="sml_abs_title wow fadeInUp">Reviews</h4>
 
-        <!-- Wrapper -->
-        <div class="mid_wrapper">
-
-            <!-- Item -->
-            <div class="bordered_block flex_block image_bck bordered_over bordered_over_blue text-center">
-                <div class="image_over image_bck" data-image="images/00.jpg"></div>
-                <div class="box_quotes"><span class="fa fa-quote-right"></span></div>
-                <h4 class="title_down"><span>SNEH PALLAV</span></h4>
-                <div class="box_content">
-                    <h3>SNEH PALLAV</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercita 
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block image_bck bordered_over bordered_over_blue text-center">
-                <div class="image_over image_bck" data-image="images/88.jpg"></div>
-                <div class="box_quotes"><span class="fa fa-quote-right"></span></div>
-                <h4 class="title_down"><span>SUMIT SOURABH</span></h4>
-                <div class="box_content">
-                    <h3>SUMIT SOURABH</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. 
-                </div>     
-            </div>
-
-            <!-- Item -->
-            <div class="bordered_block flex_block image_bck bordered_over bordered_over_blue text-center">
-                <div class="image_over image_bck" data-image="images/99.jpg"></div>
-                <div class="box_quotes"><span class="fa fa-quote-right"></span></div>
-                <h4 class="title_down"><span>KUNDAN KUMAR</span></h4>
-                <div class="box_content">
-                    <h3>KUNDAN KUMAR</h3>
-                   Best startup by the company. very good service . I am very happy with this services 
-                </div>     
-            </div>
-
-         
-           
-
-            <!-- Item -->
-            <div class="bordered_block flex_block image_bck bordered_over bordered_over_blue text-center">
-                <div class="image_over image_bck" data-image="images/77.jpg"></div>
-                <div class="box_quotes"><span class="fa fa-quote-right"></span></div>
-                <h4 class="title_down"><span>BIPUL KUMAR</span></h4>
-                <div class="box_content">
-                    <h3>BIPUL KUMAR</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. 
-                </div>     
-            </div>
-
-        </div>
-        <!-- Wrapper End -->
-
-    </div>
-</section>
-<!-- Reviews End -->
-
-<!-- Footer -->
-<div class="footer grey_border image_bck">
-    <div class="container">
-        
-        <div class="row">
-            <div class="col-md-3 col-sm-3">
-                <div class="logo text-left">
-                    <a href="#"><b>THE MARKATI</b></a>
-                </div>
-                A SMART WAY TO BOOK APPOINTMENTS
-            </div>
-            
-            <div class="col-md-3 col-sm-3 hidden-xs">
-                <div class="widget">
-                    <h4>Recent Posts</h4>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">Good Startup </a>
-                            <span class="date">DEC
-                                <span class="number">22, 2017</span>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="#">Easy to book appointments</a>
-                            <span class="date">JAN
-                                <span class="number">14, 2018</span>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="#">Very responsive</a>
-                            <span class="date">MARCH
-                                <span class="number">11, 2018</span>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            
-            <div class="col-md-3 col-sm-3 hidden-xs">
-                <div class="widget">
-                    <h4>Latest Updates</h4>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">NEW FEATURES</a>
-                            <span class="date">JAN
-                                <span class="number">22, 2018</span>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="#">MORE TIEUPS</a>
-                            <span class="date">MARCH
-                                <span class="number">14, 2018</span>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="#">LAUNCHING THE APP SOON</a>
-                            <span class="date">APRIL
-                                <span class="number">11, 2018</span>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-                <!--end of widget-->
-            </div>
-            
-            <div class="col-md-3 col-sm-3 hidden-xs">
-                <div class="widget">
-                    <h4>Contacts</h4>
-                    <span class="contacts_ti ti-mobile"></span>+91 9008763459<br />
-                    <span class="contacts_ti ti-mobile"></span>+91 8735563197<br />
-                    <span class="contacts_ti ti-email"></span><a href="mailto:support@thetrazikas">support@themarkati.com</a><br />
-                    <span class="contacts_ti ti-location-pin"></span>Workplace smartworks , chennai-600089 ,india
-                </div>
-                <!--end of widget-->
-            </div>
-        
-        </div>
-        <!--Row End-->
-   
-    </div>
-    <!-- Container End -->
 
     <!-- Footer Copyrights -->
-    <div class="footer_end image_bck white_txt" data-color="#000000">
+    <div class="footer_end image_bck white_txt" data-color="#000">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <span class="sub">&copy; Copyright 2018 - The Markati</span>
+                    <span class="sub">&copy; Copyright 2018 - THE MARKATI</span>
                 </div>
                 <div class="col-sm-6 text-right">
                     <ul class="list-inline social-list">
@@ -794,6 +607,7 @@ With online scheduling, this problem is easily avoidable. They can simply log in
 <script src="js/bootstrap.min.js"></script>
 <!-- Theme JS -->
 <script src="js/script.js"></script>
+
 
 
 </body>
